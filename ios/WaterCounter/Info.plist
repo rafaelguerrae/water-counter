@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>watercounter</string>
-          <string>com.rafaeljeeves.WaterCounter</string>
+          <string>com.guerra.WaterCounter</string>
         </array>
       </dict>
       <dict>

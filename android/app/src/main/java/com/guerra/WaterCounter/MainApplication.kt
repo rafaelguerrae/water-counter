@@ -1,4 +1,4 @@
-package com.rafaeljeeves.WaterCounter
+package com.guerra.WaterCounter
 
 import android.app.Application
 import android.content.res.Configuration

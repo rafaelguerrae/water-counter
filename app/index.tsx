@@ -1,4 +1,4 @@
-import MainScreen from '@/src/screens/MainScreen';
+import { MainScreen } from '@/src/screens/MainScreen';
 
 export default function MainScreenRoute() {
   return <MainScreen/>;

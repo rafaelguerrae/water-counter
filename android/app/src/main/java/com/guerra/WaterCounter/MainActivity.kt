@@ -1,4 +1,4 @@
-package com.rafaeljeeves.WaterCounter
+package com.guerra.WaterCounter
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

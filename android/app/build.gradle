@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.rafaeljeeves.WaterCounter'
+    namespace 'com.guerra.WaterCounter'
     defaultConfig {
-        applicationId 'com.rafaeljeeves.WaterCounter'
+        applicationId 'com.guerra.WaterCounter'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
