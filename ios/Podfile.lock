@@ -276,6 +276,8 @@ PODS:
   - libwebp/sharpyuv (1.5.0)
   - libwebp/webp (1.5.0):
     - libwebp/sharpyuv
+  - MMKV (2.2.4):
+    - MMKVCore (~> 2.2.4)
   - MMKVCore (2.2.4)
   - NitroMmkv (4.0.0):
     - hermes-engine
@@ -2275,6 +2277,7 @@ DEPENDENCIES:
   - EXUpdatesInterface (from `../node_modules/expo-updates-interface/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
+  - MMKV
   - NitroMmkv (from `../node_modules/react-native-mmkv`)
   - NitroModules (from `../node_modules/react-native-nitro-modules`)
   - RCTDeprecation (from `../node_modules/react-native/ReactApple/Libraries/RCTFoundation/RCTDeprecation`)
@@ -2354,6 +2357,7 @@ SPEC REPOS:
     - libavif
     - libdav1d
     - libwebp
+    - MMKV
     - MMKVCore
     - SDWebImage
     - SDWebImageAVIFCoder
@@ -2583,6 +2587,7 @@ SPEC CHECKSUMS:
   libavif: 84bbb62fb232c3018d6f1bab79beea87e35de7b7
   libdav1d: 23581a4d8ec811ff171ed5e2e05cd27bad64c39f
   libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
+  MMKV: 1a8e7dbce7f9cad02c52e1b1091d07bd843aefaf
   MMKVCore: f2dd4c9befea04277a55e84e7812f930537993df
   NitroMmkv: 7fe66a61d5acab6516098a64f42af575595e7566
   NitroModules: fc12b469657815cec30e4453753927cb0bb888bf
@@ -2661,6 +2666,6 @@ SPEC CHECKSUMS:
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
   Yoga: 5934998fbeaef7845dbf698f698518695ab4cd1a
 
-PODFILE CHECKSUM: a35307225eb1623b1965739f3d3ce395046acb62
+PODFILE CHECKSUM: f0c8453c62e3e89c8c0560412f407bc81c028661
 
 COCOAPODS: 1.16.2

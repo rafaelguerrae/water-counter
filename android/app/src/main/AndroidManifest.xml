@@ -28,5 +28,26 @@
         <data android:scheme="exp+watercounter"/>
       </intent-filter>
     </activity>
+    <receiver
+      android:name=".widgets.DisplayWidgetProvider"
+      android:exported="true">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter>
+      <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/display_widget_info" />
+    </receiver>
+    <receiver
+      android:name=".widgets.QuickActionWidgetProvider"
+      android:exported="true">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        <action android:name="com.guerra.WaterCounter.ADD_WATER" />
+      </intent-filter>
+      <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/quick_action_widget_info" />
+    </receiver>
   </application>
 </manifest>

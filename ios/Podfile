@@ -58,3 +58,8 @@ target 'WaterCounter' do
     )
   end
 end
+
+
+target 'WaterCounterWidgetsExtension' do
+  pod 'MMKV'
+end
